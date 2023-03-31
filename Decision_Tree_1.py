@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import os
-import random
+# import random
 from sklearn.tree import DecisionTreeRegressor
 
 ###############################################################################
@@ -183,16 +183,5 @@ print("Print Statement 3")
 print("Print Statement 4")
 print("Print Statement 5")
 print("Print Statement 6")
-
-def addition(a, b):
-    result = a + b
-    return result
-
-def multiplicaiton(a, b):
-    result = a * b
-    return result
-
-print(addition(multiplicaiton(2, 3), 4))
-print(addition(multiplicaiton(1, 2), 3))
 
 plt.savefig('Predict_tree.png', dpi=600)
